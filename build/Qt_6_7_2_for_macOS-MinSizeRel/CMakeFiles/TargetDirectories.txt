@@ -1,0 +1,9 @@
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/TicTacToe.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/edit_cache.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/rebuild_cache.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/list_install_components.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/install.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/install/local.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/install/strip.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/TicTacToe_autogen_timestamp_deps.dir
+/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/TicTacToe_autogen.dir

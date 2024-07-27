@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/TicTacToe_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/vitalik/TicTacToe",
+	"CMAKE_SOURCE_DIR" : "/Users/vitalik/TicTacToe",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/TicTacToe_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/vitalik/TicTacToe/Icons/tac.png",
+		"/Users/vitalik/TicTacToe/Icons/reset.png",
+		"/Users/vitalik/TicTacToe/Icons/tic.png"
+	],
+	"LOCK_FILE" : "/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/TicTacToe_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/Users/vitalik/Qt/6.7.2/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/CMakeFiles/TicTacToe_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/vitalik/TicTacToe/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

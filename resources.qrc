@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/tac.png</file>
+        <file>Icons/tic.png</file>
+        <file>Icons/reset.png</file>
+    </qresource>
+</RCC>
