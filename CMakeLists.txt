@@ -33,6 +33,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Icons/reset.png Icons/tac.png Icons/tic.png
         clickeventfilter.h
         clickeventfilter.cpp
+        Icons/reset.png Icons/start.png Icons/tac.png Icons/tic.png
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET TicTacToe APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

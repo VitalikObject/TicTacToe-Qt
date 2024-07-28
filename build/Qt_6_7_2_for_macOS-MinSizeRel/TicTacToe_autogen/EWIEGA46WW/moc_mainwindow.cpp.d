@@ -90,7 +90,13 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QEvent \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QList \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/QVector \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
@@ -121,10 +127,16 @@
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
@@ -136,12 +148,14 @@
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
@@ -151,6 +165,7 @@
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
@@ -203,6 +218,7 @@
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
@@ -210,37 +226,55 @@
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/QMouseEvent \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/QPainter \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/QTransform \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qevent.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qinputdevice.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
@@ -249,4 +283,5 @@
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
   /Users/vitalik/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/vitalik/TicTacToe/clickeventfilter.h \
   /Users/vitalik/TicTacToe/tictactoe.h

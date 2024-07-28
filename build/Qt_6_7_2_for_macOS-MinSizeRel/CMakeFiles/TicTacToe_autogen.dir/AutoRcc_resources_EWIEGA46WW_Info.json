@@ -9,6 +9,7 @@
 	"INCLUDE_DIR" : "/Users/vitalik/TicTacToe/build/Qt_6_7_2_for_macOS-MinSizeRel/TicTacToe_autogen/include",
 	"INPUTS" : 
 	[
+		"/Users/vitalik/TicTacToe/Icons/start.png",
 		"/Users/vitalik/TicTacToe/Icons/tac.png",
 		"/Users/vitalik/TicTacToe/Icons/reset.png",
 		"/Users/vitalik/TicTacToe/Icons/tic.png"

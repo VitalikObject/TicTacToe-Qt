@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-MinSizeRel-d4574e2a7e0bf707f577.json",
+					"jsonFile" : "directory-.-MinSizeRel-129b7d505422a677620e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TicTacToe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TicTacToe-MinSizeRel-4d6ad39560a10b7cc89e.json",
+					"jsonFile" : "target-TicTacToe-MinSizeRel-5d44ec3e778bcc004dba.json",
 					"name" : "TicTacToe",
 					"projectIndex" : 0
 				},

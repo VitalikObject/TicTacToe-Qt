@@ -1,11 +1,12 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "clickeventfilter.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , m_ui(new Ui::MainWindow)
     , m_ticTacToe(new TicTacToe())
+    , m_eventFilterResetButton(new ClickEventFilter())
+    , m_eventFilterStartButton(new ClickEventFilter())
 {
     m_ui->setupUi(this);
     this->setWindowTitle("TicTacToe created by Vitalii Strashnov & Mariia Bulhak");
@@ -23,18 +24,25 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow() {
     delete m_ui;
     delete m_ticTacToe;
+    delete m_eventFilterResetButton;
+    delete m_eventFilterStartButton;
 }
 
 void MainWindow::setupIcons() {
-    QPixmap pixmap(":/Icons/reset.png");
-    m_ui->label_2->setPixmap(pixmap);
+    QPixmap resetIcon(":/Icons/reset.png");
+    m_ui->label_2->setPixmap(resetIcon);
     m_ui->label_2->setScaledContents(true);
+
+    QPixmap startIcon(":/Icons/start.png");
+    m_ui->label_4->setPixmap(startIcon);
+    m_ui->label_4->setScaledContents(true);
 }
 
 void MainWindow::setupEventFilters() {
-    ClickEventFilter *eventFilter = new ClickEventFilter(this);
-    m_ui->label_2->installEventFilter(eventFilter);
-    connect(eventFilter, &ClickEventFilter::labelClicked, this, &MainWindow::onResetClicked);
+    m_ui->label_2->installEventFilter(m_eventFilterResetButton);
+    m_ui->label_4->installEventFilter(m_eventFilterStartButton);
+    connect(m_eventFilterResetButton, &ClickEventFilter::labelClicked, this, &MainWindow::onResetClicked);
+    connect(m_eventFilterStartButton, &ClickEventFilter::labelClicked, this, &MainWindow::onStartClicked);
 }
 
 void MainWindow::connectSignalsAndSlots() {
@@ -52,6 +60,30 @@ void MainWindow::onResetClicked() {
 
     connectSignalsAndSlots();
     m_ui->label->hide();
+    m_ui->groupBox->show();
+}
+
+void MainWindow::onStartClicked() {
+    m_ui->groupBox->hide();
+    TicTacToe::PlayerFieldState playerFighter = TicTacToe::PlayerFieldState::Empty;
+    TicTacToe::PlayerFieldState botFighter = TicTacToe::PlayerFieldState::Empty;
+    if (m_ui->radioButton_2->isChecked()) {
+        playerFighter = TicTacToe::PlayerFieldState::X;
+        botFighter = TicTacToe::PlayerFieldState::O;
+    } else {
+        playerFighter = TicTacToe::PlayerFieldState::O;
+        botFighter = TicTacToe::PlayerFieldState::X;
+    }
+
+    m_ticTacToe->setPlayerFighter(playerFighter);
+    m_ticTacToe->setBotFighter(botFighter);
+
+    m_ticTacToe->setIsGameStarted(true);
+
+    if (botFighter == TicTacToe::PlayerFieldState::X) {
+        m_ticTacToe->setisPlayerTurn(false);
+        m_ticTacToe->botTurn();
+    }
 }
 
 void MainWindow::displayResult(TicTacToe::GameState gameState) {
@@ -78,14 +110,14 @@ void MainWindow::displayResult(TicTacToe::GameState gameState) {
     }
 }
 
-void MainWindow::setButtonIcon(int buttonId, TicTacToe::FieldState field) {
+void MainWindow::setButtonIcon(int buttonId, TicTacToe::PlayerFieldState playerFieldState) {
     QIcon icon;
 
-    switch (field) {
-    case TicTacToe::FieldState::O:
+    switch (playerFieldState) {
+    case TicTacToe::PlayerFieldState::O:
         icon = m_iconO;
         break;
-    case TicTacToe::FieldState::X:
+    case TicTacToe::PlayerFieldState::X:
         icon = m_iconX;
         break;
     default:

@@ -8,18 +8,27 @@ class TicTacToe : public QObject {
 public:
     TicTacToe();
     void attemptToTurn(int buttonId);
-    enum FieldState { Empty, X, O };
+    void botTurn();
+    bool getIsGameStarted();
+    void setIsGameStarted(bool isGameStarted);
+    void setisPlayerTurn(bool isPlayerTurn);
+    enum PlayerFieldState { Empty, X, O };
     enum GameState { Unfinished, Draw, PlayerWin, BotWin };
+    void setPlayerFighter(PlayerFieldState playerFieldState);
+    void setBotFighter(PlayerFieldState playerFieldState);
 
 signals:
-    void setButtonIcon(int buttonId, TicTacToe::FieldState fieldState);
+    void setButtonIcon(int buttonId, TicTacToe::PlayerFieldState playerFieldState);
     void displayResult(TicTacToe::GameState gameState);
 
 private:
+    PlayerFieldState m_playerFighter;
+    PlayerFieldState m_botFighter;
+    bool m_isGameStarted;
     bool m_isPlayerTurn;
-    QVector<QVector<FieldState>> m_gameField;
+    QVector<QVector<PlayerFieldState>> m_gameField;
     GameState findWinner();
     bool isFieldEmpty(int row, int col);
-    void botTurn();
-    void makeTurn(int row, int col, FieldState state);
+    void makeTurn(int row, int col, PlayerFieldState state);
+    int minimax(QVector<QVector<PlayerFieldState>> &field, int depth, bool isMaximizing);
 };

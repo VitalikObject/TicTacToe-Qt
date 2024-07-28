@@ -72,13 +72,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 76,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 59,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
@@ -338,18 +338,18 @@
 				2,
 				10,
 				13,
-				16
+				17
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "TicTacToe_autogen::@6890427a1f51a3e7e1df"
+			"id" : "TicTacToe_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "TicTacToe_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "TicTacToe_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "TicTacToe::@6890427a1f51a3e7e1df",
@@ -457,7 +457,7 @@
 				2,
 				10,
 				13,
-				16
+				17
 			]
 		},
 		{
@@ -467,7 +467,7 @@
 				3,
 				9,
 				12,
-				14
+				15
 			]
 		},
 		{
@@ -477,7 +477,7 @@
 				4,
 				5,
 				8,
-				15
+				16
 			]
 		},
 		{
@@ -486,15 +486,16 @@
 			[
 				6,
 				7,
-				11
+				11,
+				14
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				17,
-				18
+				18,
+				19
 			]
 		}
 	],
@@ -575,6 +576,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "clickeventfilter.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Icons/start.png",
+			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
