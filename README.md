@@ -15,7 +15,6 @@ TicTacToe-Qt is a simple implementation of the classic Tic-Tac-Toe game using th
 1. Clone the repository:
 ```
 git clone https://github.com/VitalikObject/TicTacToe-Qt.git
-
 ```
 2. Open the project in Qt Creator.
 3. Build and run the project.
