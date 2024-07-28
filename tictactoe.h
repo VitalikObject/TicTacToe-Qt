@@ -37,4 +37,6 @@ private:
     GameState checkCols();
     GameState checkDiags();
     bool isBoardFull();
+    std::pair<int, int> findBestMove();
+    void updateBestMove(int score, int row, int col, int& bestScore, int& bestRow, int& bestCol);
 };

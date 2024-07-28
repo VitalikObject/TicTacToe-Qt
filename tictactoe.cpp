@@ -57,6 +57,15 @@ void TicTacToe::makeTurn(int row, int col, PlayerFieldState state) {
 }
 
 void TicTacToe::botTurn() {
+    auto [bestRow, bestCol] = findBestMove();
+
+    if (bestRow != -1 && bestCol != -1) {
+        makeTurn(bestRow, bestCol, m_botFighter);
+    }
+}
+
+
+std::pair<int, int> TicTacToe::findBestMove() {
     int bestScore = std::numeric_limits<int>::min();
     int bestRow = -1, bestCol = -1;
 
@@ -67,19 +76,22 @@ void TicTacToe::botTurn() {
                 int score = minimax(m_gameField, 0, false);
                 m_gameField[row][col] = PlayerFieldState::Empty;
 
-                if (score > bestScore) {
-                    bestScore = score;
-                    bestRow = row;
-                    bestCol = col;
-                }
+                updateBestMove(score, row, col, bestScore, bestRow, bestCol);
             }
         }
     }
 
-    if (bestRow != -1 && bestCol != -1) {
-        makeTurn(bestRow, bestCol, m_botFighter);
+    return {bestRow, bestCol};
+}
+
+void TicTacToe::updateBestMove(int score, int row, int col, int& bestScore, int& bestRow, int& bestCol) {
+    if (score > bestScore) {
+        bestScore = score;
+        bestRow = row;
+        bestCol = col;
     }
 }
+
 
 int TicTacToe::evaluateMove(QVector<QVector<PlayerFieldState>> &field, int depth, bool isMaximizing) {
     int bestScore = isMaximizing ? std::numeric_limits<int>::min() : std::numeric_limits<int>::max();
