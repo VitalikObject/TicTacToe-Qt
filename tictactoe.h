@@ -31,4 +31,10 @@ private:
     bool isFieldEmpty(int row, int col);
     void makeTurn(int row, int col, PlayerFieldState state);
     int minimax(QVector<QVector<PlayerFieldState>> &field, int depth, bool isMaximizing);
+    int evaluateMove(QVector<QVector<PlayerFieldState>> &field, int depth, bool isMaximizing);
+    GameState checkLine(PlayerFieldState a, PlayerFieldState b, PlayerFieldState c);
+    GameState checkRows();
+    GameState checkCols();
+    GameState checkDiags();
+    bool isBoardFull();
 };
